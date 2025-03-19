@@ -6,3 +6,24 @@
 $ bunx create-next-app@14.2.4 jira-clone
 ```
 
+## 02 Adding a component library
+
+```
+bunx --bun shadcn --version
+2.3.0
+
+$ bunx --bun shadcn@2.3.0 init
+✔ Preflight checks.
+✔ Verifying framework. Found Next.js.
+✔ Validating Tailwind CSS.
+✔ Validating import alias.
+✔ Which style would you like to use? › New York
+✔ Which color would you like to use as the base color? › Neutral
+? Would you like to use CSS variables for theming? › yes
+
+$ bunx --bun shadcn@2.3.0 add button
+✔ Checking registry.
+✔ Installing dependencies.
+✔ Created 1 file:
+  - src/components/ui/button.tsx
+```
