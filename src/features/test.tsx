@@ -2,7 +2,7 @@ import React from 'react'
 
 const TestComponent = () => {
   return (
-    <div>Hello test component 123</div>
+    <div className="text-green-500">Hello test component 123</div>
   )
 }
 
