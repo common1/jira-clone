@@ -59,3 +59,13 @@ text-area
 
 Current: 34:02
 
+## 04 Resolving lint errors
+
+```
+$ bun run build
+
+No errors
+```
+
+Current: 39:12
+
