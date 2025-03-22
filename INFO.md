@@ -69,3 +69,7 @@ No errors
 
 Current: 39:12
 
+## 05 Creating auth screens - Part 1
+
+Current: 1:07:02
+
