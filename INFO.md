@@ -73,3 +73,11 @@ Current: 39:12
 
 Current: 1:07:02
 
+## 05 Creating auth screens - Part 2
+
+```
+$ bun add react-icons
+```
+
+Current: 1:17:01
+
