@@ -79,5 +79,13 @@ Current: 1:07:02
 $ bun add react-icons
 ```
 
-Current: 1:17:01
+Current: 1:24:06
+
+## 05 Creating auth screens - Part 3
+
+```
+Adjustment of sign-in-card.tsx, sign-up-card.tsx, layout.tsx
+```
+
+Current: 1:34:19
 
