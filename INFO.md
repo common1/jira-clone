@@ -89,3 +89,11 @@ Adjustment of sign-in-card.tsx, sign-up-card.tsx, layout.tsx
 
 Current: 1:34:19
 
+## 06 Setting up Hono API - Part 1
+
+```
+$ bun add hono
+```
+
+Current: 1:45:46
+
