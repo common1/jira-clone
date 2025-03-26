@@ -99,3 +99,22 @@ $ bun add hono
 
 Current: 1:48:13
 
+## 07 Creating auth API - Part 1
+
+```
+bun add @tanstack/react-query@5.59.0
+
+[https://tanstack.com/query/latest/docs/framework/react/guides/advanced-ssr#advanced-server-rendering]
+
+bun add @hono/zod-validator
+
+.env.local
+NEXT_PUBLIC_APP_URL=http://localhost:3000
+```
+
+Current: 2:03:07
+
+## 07 Creating auth API - Part 2
+
+Current: 2:21:50
+
