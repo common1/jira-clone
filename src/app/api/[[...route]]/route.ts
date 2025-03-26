@@ -8,7 +8,8 @@ app.get("/hello", (c) => {
 });
 
 app.get("/project/:projectId", (c) => {
-    const projectId = c.req.param("projectId");
+    const { projectId } = c.req.param();
+
     return c.json({ project: projectId});
 });
 

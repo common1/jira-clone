@@ -95,5 +95,7 @@ Current: 1:34:19
 $ bun add hono
 ```
 
-Current: 1:45:46
+## 06 Setting up Hono API - Part 2
+
+Current: 1:48:13
 
