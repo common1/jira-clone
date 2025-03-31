@@ -141,3 +141,7 @@ $ bun add server-only
 
 Current: 2:51:10
 
+## 09 Building a session middleware - Part 1
+
+Current: 3:01:48
+
