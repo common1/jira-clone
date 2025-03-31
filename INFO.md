@@ -118,3 +118,26 @@ Current: 2:03:07
 
 Current: 2:21:50
 
+## 08 Setting up Appwrite & database
+
+```
+Auth / SSR Login
+Server-SDK
+Node.js SDK 14.1.0
+$ bun add node-appwrite@14.1.0
+
+Admin client / generate an API key
+Integrate with your server / API key
+Name: jira-clone
+Auth / session.write users.write
+
+...
+
+Tutorial / Next.js SSR
+
+$ bun add server-only
+
+```
+
+Current: 2:51:10
+
