@@ -149,3 +149,12 @@ Current: 3:01:48
 
 Current: 3:13:06
 
+## 10 Learning how to protect routes - Part 1
+
+```
+[https://appwrite.io/docs/tutorials/nextjs-ssr-auth/step-7]
+Auth / SSR login / Tutorials / Next.js SSR / OAuth authentication with SSR
+```
+
+Current: 3:16:40
+
