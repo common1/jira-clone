@@ -11,6 +11,11 @@ import { loginSchema, registerSchema } from "@/features/schemas";
 import { AUTH_COOKIE } from "../constants";
 
 const app = new Hono()
+    .get("/current", sessionMiddleware, (c) => {
+        const user = c.get("user");
+
+        return c.json({ data: user })
+    })
     .post(
         "/login",
         zValidator("json", loginSchema),
@@ -65,12 +70,13 @@ const app = new Hono()
             return c.json({ success: true });
         }
     )
-    .post("/logout", sessionMiddleware, (c) => {
+    .post("/logout", sessionMiddleware, async (c) => {
         const account = c.get("account");
 
         deleteCookie(c, AUTH_COOKIE);
+        await account.deleteSession("current");
 
-        return c.json({ success: true});
+        return c.json({ success: true });
     })
 
 export default app;

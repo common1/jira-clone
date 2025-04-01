@@ -145,3 +145,7 @@ Current: 2:51:10
 
 Current: 3:01:48
 
+## 09 Building a session middleware - Part 2
+
+Current: 3:13:06
+
