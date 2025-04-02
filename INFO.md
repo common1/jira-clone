@@ -156,5 +156,9 @@ Current: 3:13:06
 Auth / SSR login / Tutorials / Next.js SSR / OAuth authentication with SSR
 ```
 
-Current: 3:16:40
+Current: 3:21:27
+
+## 10 Learning how to protect routes - Part 2
+
+Current: 3:45:28
 
