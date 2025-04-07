@@ -7,7 +7,7 @@ import { deleteCookie, setCookie } from "hono/cookie";
 import { CreateAdminClient } from "@/lib/appwrite";
 import { sessionMiddleware } from "@/lib/session-middleware";
 
-import { loginSchema, registerSchema } from "@/features/schemas";
+import { loginSchema, registerSchema } from "@/features/auth/schemas";
 import { AUTH_COOKIE } from "../constants";
 
 const app = new Hono()

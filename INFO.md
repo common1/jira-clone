@@ -170,3 +170,22 @@ Current: 3:51:06
 
 Current: 4:07:02
 
+## 12 Building a workspace form - Part 1
+
+```
+Appwrite
+
+Create database : jira-clone
+Creat collection: workspaces
+  Create attribute:
+    Attribute Key: name
+    Size: 256
+    Required
+    ---
+    Attribute Key: userId
+    Size 50
+    Required
+```
+
+Current: 4:18:47
+
