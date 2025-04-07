@@ -166,3 +166,7 @@ Current: 3:45:28
 
 Current: 3:51:06
 
+## 11 Building a dashboard layout - Part 2
+
+Current: 4:07:02
+
