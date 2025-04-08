@@ -18,7 +18,6 @@ const DashboardLayout = ({ children }: DashboardLayoutProps) => {
                         <main className="h-full py-8 px-6 flex flex-coll">
                             {children}
                         </main>
-
                     </div>
                 </div>
             </div>
