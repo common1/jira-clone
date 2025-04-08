@@ -193,3 +193,21 @@ Current: 4:18:47
 
 Current: 4:37:37
 
+## 13 Handling image upload - Part 1
+
+```
+Storage / Create bucket / images
+
+databases / workspaces / Attributes
+  Create attribute:
+    Attribute Key: imageUrl
+    Size: 1400000
+
+Storage / Buckets / images / Settings
+ Maximum file size: 1 Megabytes
+ Allowed file Extensions: jpg, png svg jpeg
+ Permissons: Users - Create, Read, Update, Delete
+```
+
+Current: 4:47:02
+
